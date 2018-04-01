@@ -10,7 +10,7 @@ or insurance products.  Please refer to federal and state guidelines for such pr
 please see sections 4.1.1 - 4.1.3 of "Predicting nonstationary flood frequencies: 
 Evidence supports an updated stationarity thesis in the United States". Luke et al 2017, Water Resources Research
 
-In the NS model, the mean of the LPII distribution changes as a function of time.  Return periods are not calculated assuming changing probabilities.  Return periods are obtained by calculating the return periods associated with the NS mean at the end of the fitting period, or t = t(end).  We refer to this approach as updating ST return periods.  The updated ST return periods are calculated and displayed by default when applying bayes_LPIII.m for estimation of the NS LPIII model parameters. 
+In the NS model, the mean of the LPIII distribution changes as a function of time.  Return periods are not calculated assuming changing probabilities.  Return periods are obtained by calculating the return periods associated with the NS mean at the end of the fitting period, or t = t(end).  We refer to this approach as updating ST return periods.  The updated ST return periods are calculated and displayed by default when applying bayes_LPIII.m for estimation of the NS LPIII model parameters. 
 
 Required function files (must be in same directory) 
 
