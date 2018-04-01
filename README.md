@@ -14,6 +14,7 @@ In the NS model, the mean of the LPII distribution changes as a function of time
 
 Required function files (must be in same directory) 
 bayes_LPIII.m -> main program 
+
 dream_zs.m    -> MCMC algorithm 
 lp3inv.m      -> inverse of LPII CDF based on Wilson - Hilferty transformation 
 lp3pdf.m      -> PIII probability density function calculated in log-space (returns actual density) 
